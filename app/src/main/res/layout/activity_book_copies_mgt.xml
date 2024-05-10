@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book_mgt"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="32dp"
+    android:background="@drawable/book_copy_menu">
+
+    <TextView
+        android:id="@+id/book_copy_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/book_copies_title"
+        android:textColor="#800080 "
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <EditText
+        android:id="@+id/book_id"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/book_menu_shape"
+        android:gravity="center"
+        android:hint="@string/book_id"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="#800080 "
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184" />
+
+    <EditText
+        android:id="@+id/book_branch"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/book_menu_shape"
+        android:gravity="center"
+        android:hint="@string/branch_id"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="#800080 "
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308" />
+
+    <EditText
+        android:id="@+id/book_access"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/book_menu_shape"
+        android:gravity="center"
+        android:hint="@string/access_no"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="#800080 "
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423" />
+
+    <Button
+        android:id="@+id/book_copy_create"
+        android:layout_width="95dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#800080   "
+        android:text="@string/create"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <Button
+        android:id="@+id/book_copy_delete"
+        android:layout_width="95dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#800080 "
+        android:text="@string/delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+    <Button
+        android:id="@+id/book_copy_update"
+        android:layout_width="95dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#800080 "
+        android:text="@string/update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.786" />
+
+    <Button
+        android:id="@+id/book_copy_read"
+        android:layout_width="95dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#800080 "
+        android:text="@string/read"
+        app:layout_constraintBottom_toBottomOf="@+id/book_copy_delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

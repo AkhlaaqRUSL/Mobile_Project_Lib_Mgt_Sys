@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MAD_Project01</string>
+    <string name="admin_menu"><u>Admin Actions</u> </string>
+    <string name="books_management">Books Management</string>
+    <string name="members_management">Members Management</string>
+    <string name="publishers_management">Publishers Management</string>
+    <string name="lending_management">Lending Management</string>
+    <string name="authors_management"><u>Authors Management</u></string>
+    <string name="bookCopies_management">Book Copies Management</string>
+    <string name="background_img_admin_menu">admin_menu_bg</string>
+    <string name="admin_id">Admin ID</string>
+    <string name="login_pw">Login Password</string>
+    <string name="title_name"><u>Library Management System</u></string>
+    <string name="login_Enter">Enter</string>
+    <string name="type_pw">Type Your Password</string>
+    <string name="type_id">Type Your ID</string>
+    <string name="mem_name">Type Member Name</string>
+    <string name="mem_card_no">Type Card NO</string>
+    <string name="mem_add">Type Member Address</string>
+    <string name="mem_phone">Type Phone NO</string>
+    <string name="mem_due">Type Unpaid Due</string>
+    <string name="create">Create</string>
+    <string name="read">Read</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="mem_title">Member Management</string>
+
+    //book mgt
+    <string name="book_title">Books Management</string>
+    <string name="book_id">Book ID</string>
+    <string name="book_name">Book Name</string>
+    <string name="publishers_name">Publishers Name</string>
+
+    //book copies mgt
+    <string name="book_copies_title">Book Copies Management</string>
+    <string name="branch_id">Branch ID</string>
+    <string name="access_no">Access NO"</string>
+
+    //publisher
+    <string name="publisher_title">Publisher Management</string>
+    <string name="publisher_name">Publisher Name</string>
+    <string name="publisher_address">Publisher Adress</string>
+    <string name="publisher_phne">Publisher PhoneNo</string>
+//AUTHORS MGT
+    <string name="authors_name">Authors Name</string>
+
+</resources>
